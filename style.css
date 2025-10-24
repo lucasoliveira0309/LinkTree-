@@ -51,24 +51,21 @@ body {
     background: radial-gradient(circle at center, #2c2b28 0%, #1b1b1b 70%, #000000 100%);
     color: #fff;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
-
     background-size: cover;
     background-attachment: fixed;
 }
 
 footer {
-    margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 .container>a {
     text-decoration: none;
-    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 1.5rem;
     background-color: var(--Preto);
     color: var(--Branco);
     width: 350px;
