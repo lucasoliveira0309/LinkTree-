@@ -19,6 +19,7 @@
 .container a {
     font-size: 25px;
 }
+
 header img {
     width: 100px;
     height: 100px;
@@ -47,16 +48,20 @@ main p {
 }
 
 body {
-    background-color: var(--CinzaEscuro);
+    background: radial-gradient(circle at center, #2c2b28 0%, #1b1b1b 70%, #000000 100%);
+    color: #fff;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer {
     margin-bottom: 10px;
 }
 
-.container > a {
+.container>a {
     text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: italic;
     background-color: var(--Preto);
     color: var(--Branco);
     width: 330px;
