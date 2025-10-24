@@ -52,22 +52,27 @@ body {
     color: #fff;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
+
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 footer {
     margin-bottom: 10px;
 }
 
-.container> a {
+.container>a {
     text-decoration: none;
     font-family: 'Montserrat';
     font-style: italic;
     background-color: var(--Preto);
     color: var(--Branco);
-    width: 340px;
+    width: 350px;
     height: 50px;
     margin-bottom: 20px;
     padding-top: 8px;
