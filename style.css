@@ -68,8 +68,7 @@ footer {
 
 .container>a {
     text-decoration: none;
-    font-family: 'Montserrat';
-    font-style: italic;
+    font-family: 'Playfair Display';
     background-color: var(--Preto);
     color: var(--Branco);
     width: 350px;
